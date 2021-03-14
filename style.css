@@ -10,3 +10,51 @@ body {
 }
 
 /* Add styles here! */
+/* General elements */
+body {
+  background: hsl(0, 0%, 60%);
+}
+
+strong {
+  color: hsl(160, 100%, 30%);
+}
+
+/* Utils */
+.max-width-wrapper {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+/* Shared */
+header, main {
+  border-bottom: 8px solid hsl(0, 0%, 40%);
+  background: hsl(0, 0%, 100%);
+}
+
+/* Header */
+header {
+  padding-bottom: 32px;
+  margin-bottom: 72px;
+}
+header .max-width-wrapper {
+  max-width: 392px;
+}
+h1 {
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+
+/* Main */
+main {
+  padding-top: 8px;
+}
+
+h2 {
+  background: hsl(45, 100%, 50%);
+  border-bottom: 8px solid hsl(45, 100%, 40%);
+  padding: 16px 32px;
+  padding-right: 48px;
+  margin-top: 0;
+  margin-left: -32px;
+  width: fit-content;
+}
