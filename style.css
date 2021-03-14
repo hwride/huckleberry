@@ -21,16 +21,17 @@ strong {
 
 /* Utils */
 .max-width-wrapper {
-  padding-left: 32px;
-  padding-right: 32px;
   margin: auto;
-  max-width: 800px;
+  max-width: 700px;
 }
 
 /* Shared */
 header, .card {
   border-bottom: 8px solid hsl(0, 0%, 40%);
   background: hsl(0, 0%, 100%);
+}
+.intro-chunk, .card {
+  padding: 8px 24px;
 }
 
 /* Header */
@@ -47,16 +48,11 @@ h1 {
 }
 
 /* Main */
-.card {
-  padding: 8px 24px;
-}
-
 h2 {
   background: hsl(45, 100%, 50%);
   border-bottom: 8px solid hsl(45, 100%, 40%);
-  padding: 16px 32px;
-  padding-right: 48px;
   margin-top: 0;
   margin-left: -40px;
+  padding: 16px 40px; /* Balance padding with negative margin to align text. */
   width: fit-content;
 }
