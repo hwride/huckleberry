@@ -27,15 +27,17 @@ strong {
 
 /* Shared */
 header, .card {
-  border-bottom: 8px solid hsl(0, 0%, 40%);
   background: hsl(0, 0%, 100%);
+  border-bottom: 8px solid hsl(0, 0%, 40%);
 }
 .intro-chunk, .card {
-  padding: 8px 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 /* Header */
 header {
+  padding-top: 64px;
   padding-bottom: 32px;
   margin-bottom: 72px;
 }
@@ -43,7 +45,6 @@ header {
   max-width: 392px;
 }
 h1 {
-  padding-top: 64px;
   padding-bottom: 24px;
 }
 
@@ -55,4 +56,7 @@ h2 {
   margin-left: -40px;
   padding: 16px 40px; /* Balance padding with negative margin to align text. */
   width: fit-content;
+}
+.card {
+  padding-top: 8px;
 }
